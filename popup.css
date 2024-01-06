@@ -1,0 +1,30 @@
+body {
+    width: 200px;
+    height: 150px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  #color-picker-container {
+    text-align: center;
+  }
+  
+  #selected-color {
+    margin-top: 10px;
+  }
+  
+  #color-value {
+    font-weight: bold;
+  }
+  
+  .copied-popup {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    z-index: 999;
+  }
+  
