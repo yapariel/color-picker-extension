@@ -35,8 +35,5 @@ document.addEventListener('DOMContentLoaded', function () {
       }, 1000);
     }
   
-    function hideColorPickerPopup() {
-      colorPicker.click();
-    }
   });
   

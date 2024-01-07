@@ -1,7 +1,10 @@
 body {
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 350px;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
   }
   
@@ -10,7 +13,9 @@ body {
   }
   
   #selected-color {
-    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: black;
   }
   
   #color-value {
@@ -28,3 +33,8 @@ body {
     z-index: 999;
   }
   
+  .select {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+  }

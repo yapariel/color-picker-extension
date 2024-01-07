@@ -1,16 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Color Picker</title>
   <link rel="stylesheet" type="text/css" href="popup.css">
   <script src="popup.js"></script>
 </head>
 
 <body>
-  <div id="color-picker-container">
-    <input type="color" id="color-picker" value="#ff0000" />
-    <p id="selected-color">Selected Color: <span id="color-value">select</span></p>
-  </div>
+  <section>
+    <div id="color-picker-container">
+      <label for="color-picker"></label>
+      <input class="select" type="color" id="color-picker" value="#ff0000" />
+      <p id="selected-color">Selected Color: <span id="color-value">select</span></p>
+    </div>
+  </section>
 </body>
 
 </html>
